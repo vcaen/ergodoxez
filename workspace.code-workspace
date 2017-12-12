@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"action_layer.h": "c",
+			"ergodox_ez.h": "c",
+			"stdint.h": "c",
+			"quantum.h": "c",
+			"rgblight.h": "c",
+			"timer.h": "c",
+			"action_util.h": "c",
+			"led.h": "c",
+			"vadim.h": "c"
+		}
+	}
+}
