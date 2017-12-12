@@ -1,3 +1,6 @@
 [submodule "qmk_firmware"]
 	path = qmk_firmware
 	url = git@github.com:qmk/qmk_firmware.git
+[submodule "fork_qmk_firmware"]
+	path = fork_qmk_firmware
+	url = git@github.com:vcaen/qmk_firmware.git
