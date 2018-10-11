@@ -10,7 +10,7 @@ ifndef id
 endif
 
 download:
-	curl -v -f -o $(DOWNLOAD_DIR)/keymap_$(id).c $(subst {ID},$(id),$(DOWNLOAD_URL))
+	curl -L -v -f -o $(DOWNLOAD_DIR)/keymap_$(id).c $(subst {ID},$(id),$(DOWNLOAD_URL))
 	exit 0;
 
 gen:
